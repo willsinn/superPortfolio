@@ -10,6 +10,10 @@ div {
 
 .name {
   display:block;
+  background-image: url("harambe.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .content1 {
@@ -32,4 +36,23 @@ div {
   height: 45%;
   padding: 1%;
   display:inline-block;
+  background-image: url("pacman.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.filler {
+  display: block;
+  position: relative;
+  left:85px;
+  top:150px;
+  height: 100px;
+  width: 300px;
+  background-color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+  font-style: oblique;
 }
