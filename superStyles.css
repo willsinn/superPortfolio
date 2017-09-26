@@ -56,3 +56,12 @@ p {
   color: blue;
   font-style: oblique;
 }
+
+.social {
+  display: block;
+  position: relative;
+  height: 75px;
+  width: 250px;
+  top: 450px;
+  left: 550px;
+}
